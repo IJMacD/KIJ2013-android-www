@@ -2,6 +2,10 @@
 var db;
 
 function onLoad() {
+    document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+function onDeviceReady() {
     db = window.openDatabase("newsDB", "1.0", "News Database", 256*1024);
     createDatabase();
     loadItems();
