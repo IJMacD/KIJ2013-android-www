@@ -166,7 +166,7 @@ KIJ2013.Menu = function(){
 }();
 KIJ2013.News = function(){
     //var rssURL = "http://www.kij13.org.uk/category/latest-news/feed/";
-    var rssURL = "feed.php?f=news.rss",
+    var rssURL = "http://ijmacd.x10.mx/KIJ2013/feed.php?f=news.rss",
         TABLE_NAME = 'news',
         store,
 
